@@ -2,7 +2,7 @@
 A very simple demo app to control the guest list.
 Built using [Yeoman](http://yeoman.io) and [AngularJS](http://angularjs.org/).
 
-## Launch app
+## Launch the application
 
 Before launching the application you must create a file name `guest.json` inside
 `app/guests/` folder. This is where the application data resides. Put something
@@ -20,6 +20,6 @@ The first time the application is launched, `guests.json`, is read and saved int
 before reloading the app (I will change this in the future =D).
 
 Finally to launch the app, issue the following
-
-  $ cd guestlist/
-  $ yeoman server
+    
+    $ cd guestlist/
+    $ yeoman server
