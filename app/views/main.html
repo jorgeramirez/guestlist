@@ -1,0 +1,20 @@
+<h2>Lista de Invitados</h2>
+<input placeholder="Buscar" type="text" class="search-query" ng-model="search" />
+<table class="table">
+  <thead>
+    <tr>
+      <th>Nro. de mesa</th>
+      <th>Invitado</th>
+      <th>Cantidad</th>
+      <th>Presente</th>
+    </tr>
+    </thead>
+  <tbody>
+    <tr ng-repeat="guest in guests | filter:search | orderBy:'tableNumber'">
+      <td class="present-{{ guest.present }}">{{ guest.tableNumber }}</td>
+      <td class="present-{{ guest.present }}">{{ guest.description }}</td>
+      <td class="present-{{ guest.present }}">{{ guest.qty }}</td>
+      <td><input type="checkbox" ng-model="guest.present" ng-click="updateGuestList()"/></td>
+    </tr>
+  </tbody>
+</table>

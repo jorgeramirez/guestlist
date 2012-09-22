@@ -1,0 +1,6 @@
+temp
+dist
+.sass-cache/*
+.sass-cache/**/*
+app/guests/guests.json
+app/guests/guests.csv
