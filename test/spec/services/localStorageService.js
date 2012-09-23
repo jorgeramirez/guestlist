@@ -3,7 +3,7 @@
 describe('Service: localStorageService', function () {
 
   // load the service's module
-  beforeEach(module('weddinglistApp'));
+  beforeEach(module('guestlistApp'));
 
   // instantiate service
   var localStorageService;

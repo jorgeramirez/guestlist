@@ -10,10 +10,11 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   'app/scripts/vendor/angular.js',
+  'app/scripts/vendor/angular-resource.js',
   'test/lib/angular-mocks.js',
   'app/scripts/*.js',
   'app/scripts/**/*.js',
-  'test/mock/**/*.js',
+  //'test/mock/**/*.js',
   'test/spec/**/*.js'
 ];
 
